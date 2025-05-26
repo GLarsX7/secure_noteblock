@@ -1,1 +1,0 @@
- C:\\Users\\Pedro\\Desktop\\Projetos\\noteblock\\.dart_tool\\flutter_build\\f2f797f313e1249849a040b84ca5ab8d\\native_assets.json: 
