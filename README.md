@@ -38,13 +38,17 @@ git clone https://github.com/yourusername/secure-noteblock.git
 cd secure-noteblock
 ```
 
-### 2. Install Flutter Dependencies
+### 2. Configure flutter project
+```bash
+flutter create .
+```
+### 3. Install Flutter Dependencies
 
 ```bash
 flutter pub get
 ```
 
-### 3. Generate Required Files
+### 4. Generate Required Files
 
 The project uses Hive for local storage, which requires code generation:
 
@@ -52,7 +56,7 @@ The project uses Hive for local storage, which requires code generation:
 flutter packages pub run build_runner build
 ```
 
-### 4. Platform-Specific Setup
+### 5. Platform-Specific Setup
 
 #### Android Setup
 
